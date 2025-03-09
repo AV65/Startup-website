@@ -1,0 +1,17 @@
+{
+  "name": "startup-website",
+  "version": "1.0.0",
+  "description": "- Overview\r - Features\r - Technologies Used\r - Key Highlights\r - How to Run\r - Author\r - License",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.30.0"
+  }
+}
