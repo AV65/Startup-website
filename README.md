@@ -3,6 +3,7 @@
 ## Table of Contents
 - Overview
 - Features
+- Live Demo
 - Technologies Used
 - Key Highlights
 - How to Run
@@ -21,9 +22,10 @@ Mobile-first layout that adapts to mobile,  and desktop screen.
 Reusable and customizable components to easily adjust content.
 - Dynamic Navigation: 
 Includes smooth page transitions powered by React Router
+## Live Demo
+[Live Demo](https://startup-website-30ea.onrender.com)
 
 ## Technologies Used
-
 - React
 - CSS 
 - JSX
