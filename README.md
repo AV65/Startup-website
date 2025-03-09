@@ -4,6 +4,7 @@
 - Overview
 - Features
 - Live Demo
+- Presentation link
 - Technologies Used
 - Key Highlights
 - How to Run
@@ -25,6 +26,8 @@ Includes smooth page transitions powered by React Router
 ## Live Demo
 [Live Demo](https://startup-website-30ea.onrender.com)
 
+## Presentation link
+[Presentation link](https://www.loom.com/share/13a6797638bb43539c8176080694a197?sid=42030f97-d438-4c83-8609-a031eeb3fc3c)
 ## Technologies Used
 - React
 - CSS 
