@@ -9,6 +9,10 @@ const Contact = () => {
         email: "",
         message: ""
     });
+
+    const [showPopup, setShowPopup] = useState(false);
+
+
     const handleInputChange =(event) => {
         const {id, value} = event.target;
         setFormData ({
@@ -20,11 +24,20 @@ const Contact = () => {
         event.preventDefault();
         console.log("Form submitted ", formData);
 
+        
+        setShowPopup(true);
+
+
+
         setFormData ({
             name: "",
             email: "",
             message: ""
         });
+
+        setTimeout(() => {
+            setShowPopup(false);
+        }, 3000);
     };
 
     return ( 
@@ -68,8 +81,15 @@ const Contact = () => {
                             onChange={handleInputChange}
                             required
                         />
-                        <button className="contactusbutton"> Submit </button>
+                        <button type="submit" className="contactusbutton"> Submit </button>
                     </form>
+
+                    {showPopup && (
+                        <div className="popup-message">
+                            Form Submitted Successfully! ✅
+                        </div>
+                    )}
+                    
                 </div>
             </div>
             
